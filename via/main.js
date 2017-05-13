@@ -1,17 +1,8 @@
-import Inferno from 'inferno';
-
-var h = require('inferno-hyperscript');
+import Inferno from "inferno";
+import h from "inferno-hyperscript";
 
 Inferno.render(
-  h('.example', [
-    h('a.example-link', {
-      href: '#'
-    }, [
-      'Hello',
-      props.whom,
-      '!'
-    ])
-  ]),
+  h("div", "Hello, world"),
   document.getElementById("app")
 )
 
