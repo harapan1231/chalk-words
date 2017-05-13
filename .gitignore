@@ -5,5 +5,5 @@ Cargo.lock
 # node
 /node_modules/
 # rollup
-/www/
+/www/*
 !/www/index.html
