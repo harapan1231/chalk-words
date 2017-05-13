@@ -1,0 +1,9 @@
+target/
+**/*.rs.bk
+Cargo.lock
+
+# node
+/node_modules/
+# rollup
+/www/
+!/www/index.html
