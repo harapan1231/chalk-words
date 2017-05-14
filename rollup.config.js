@@ -6,7 +6,7 @@ import uglify from 'rollup-plugin-uglify';
 
 export default {
     moduleName: "Chalk Words",
-    entry: "via/main.js",
+    entry: "vehicle/main.js",
     dest: "www/app.js",
     format: "iife",
     plugins: [
